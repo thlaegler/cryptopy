@@ -1,3 +1,7 @@
+.project
+.settings/
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,3 +131,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+data/
+!data/.gitkeep
+
+logs/
+!logs/.gitkeep
+
+results/
+!results/.gitkeep
+
+csv-results/
+!csv-results/.gitkeep
